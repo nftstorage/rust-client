@@ -15,7 +15,6 @@ docs/LinksFile.md
 docs/ListResponse.md
 docs/NFTStorageAPI.md
 docs/Nft.md
-docs/NftDeals.md
 docs/Pin.md
 docs/PinStatus.md
 docs/UnauthorizedErrorResponse.md
@@ -38,7 +37,6 @@ src/models/links_file.rs
 src/models/list_response.rs
 src/models/mod.rs
 src/models/nft.rs
-src/models/nft_deals.rs
 src/models/pin.rs
 src/models/pin_status.rs
 src/models/unauthorized_error_response.rs

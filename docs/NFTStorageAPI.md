@@ -1,6 +1,6 @@
 # \NFTStorageAPI
 
-All URIs are relative to *https://nft.storage/api*
+All URIs are relative to *https://api.nft.storage*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -43,12 +43,16 @@ Name | Type | Description  | Required | Notes
 
 ## list
 
-> crate::models::ListResponse list()
+> crate::models::ListResponse list(before, limit)
 List all stored files
 
 ### Parameters
 
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Required | Notes
+------------- | ------------- | ------------- | ------------- | -------------
+**before** | Option<**String**> | Return results created before provided timestamp |  |
+**limit** | Option<**i32**> | Max records to return |  |[default to 10]
 
 ### Return type
 

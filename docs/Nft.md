@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **scope** | Option<**String**> | Name of the JWT token used to create this NFT. | [optional][default to default]
 **pin** | Option<[**crate::models::Pin**](Pin.md)> |  | [optional]
 **files** | Option<[**Vec<serde_json::Value>**](serde_json::Value.md)> | Files in the directory (only if this NFT is a directory). | [optional]
-**deals** | Option<[**crate::models::NftDeals**](NFT_deals.md)> |  | [optional]
+**deals** | Option<[**Vec<crate::models::Deal>**](Deal.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

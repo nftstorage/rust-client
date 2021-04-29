@@ -20,8 +20,6 @@ pub mod list_response;
 pub use self::list_response::ListResponse;
 pub mod nft;
 pub use self::nft::Nft;
-pub mod nft_deals;
-pub use self::nft_deals::NftDeals;
 pub mod pin;
 pub use self::pin::Pin;
 pub mod pin_status;
